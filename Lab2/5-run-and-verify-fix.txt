@@ -1,0 +1,52 @@
+========================================
+STEP 5 — RUN AGAIN AND VERIFY THE FIX
+========================================
+
+GOAL
+Prove the fix actually worked by running the app again and confirming
+it behaves correctly. Never trust a fix you have not re-run.
+
+TYPE THIS PROMPT INTO COPILOT
+------------------------------------------------------------
+Run app.js again and show me the output. Confirm the error is gone and
+the greeting prints correctly.
+------------------------------------------------------------
+
+Approve the command, and type a name when prompted.
+
+RUN IT YOURSELF (alternative)
+    node app.js
+
+WHAT YOU SHOULD SEE
+No error this time — a working greeting, for example:
+
+    What is your name? Sam
+    Hello, Sam! Today is Tue Jul 07 2026
+
+IF IT STILL FAILS
+Repeat the debugging loop from Lab 2:
+1. Copy the new error message.
+2. Paste it back to Copilot (see Step 4).
+3. Approve the fix.
+4. Run and verify again.
+
+This run -> read error -> fix -> re-run cycle is the core loop of real
+software development.
+
+OPTIONAL CHALLENGE
+Ask Copilot to break it a different way, then fix it yourself using the
+same loop:
+
+------------------------------------------------------------
+Introduce one small, realistic bug into app.js and tell me what error
+to expect. Do not tell me the fix — I want to practice debugging it.
+------------------------------------------------------------
+
+WHAT SUCCESS LOOKS LIKE
+- The app runs with no errors and prints a correct greeting.
+- You have completed a full debug cycle: broken -> error -> fix ->
+  verified working.
+
+CONGRATULATIONS — LAB 2 COMPLETE!
+You learned the most valuable skill in vibe coding: turning an error
+message into a working fix by prompting the agent, then verifying it.

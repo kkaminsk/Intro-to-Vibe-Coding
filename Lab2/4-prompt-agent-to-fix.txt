@@ -1,0 +1,44 @@
+========================================
+STEP 4 — PROMPT THE AGENT TO FIX IT
+========================================
+
+GOAL
+Hand the error to Copilot and ask it to diagnose and fix the app.
+Let the error do the talking.
+
+TYPE THIS PROMPT INTO COPILOT
+Paste the prompt below, and replace the <...> section with the actual
+error text you copied in Step 3.
+
+------------------------------------------------------------
+Running app.js failed with this error:
+
+<paste the full error message here>
+
+Explain in plain English what caused this error, then fix app.js so it
+runs correctly. Show me exactly what you changed and why.
+------------------------------------------------------------
+
+WHAT TO EXPECT
+- Copilot explains the cause: the code calls buildGreeting() but the
+  function is named makeGreeting(), so the name does not match.
+- Copilot edits app.js to fix it (for example, renaming the call to
+  makeGreeting, or renaming the function to buildGreeting).
+- Approve the edit when it asks for permission.
+
+LEARN FROM THE FIX
+Before moving on, make sure you understand the fix. If anything is
+unclear, ask a follow-up such as:
+
+------------------------------------------------------------
+Why did the names have to match exactly? What is the difference
+between defining a function and calling it?
+------------------------------------------------------------
+
+TIP
+Fix one error at a time. If a new error appears after this fix, repeat
+the same loop: run it, copy the new error, paste it back to Copilot.
+
+WHAT SUCCESS LOOKS LIKE
+- You understand what caused the error.
+- Copilot has updated app.js with the fix.
