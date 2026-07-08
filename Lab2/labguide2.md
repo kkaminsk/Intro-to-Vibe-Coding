@@ -1,6 +1,12 @@
 # Lab 2 — Fix a Broken App with Copilot CLI
 
-## Lab Guide
+## Lab Guide *(Bonus, Optional)*
+
+---
+
+> **⭐ This is an optional bonus lab.** It's here for students who want to explore troubleshooting in a structured, guided way. It is **not** required to complete the session.
+>
+> **Prefer to keep vibing?** Great — that's the whole point. Instead of this lab, go back to your Lab 1 app and keep building: add a feature, redesign it, or start something entirely new and see how far you can push it with prompts. Come back to this lab any time you hit an error and want a repeatable way to work through it.
 
 ---
 
