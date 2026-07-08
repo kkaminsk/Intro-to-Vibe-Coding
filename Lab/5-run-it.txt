@@ -1,0 +1,38 @@
+========================================
+STEP 5 — RUN IT
+========================================
+
+GOAL
+Run the app Copilot created and see it work. Let Copilot drive the
+terminal for you.
+
+TYPE THIS PROMPT INTO COPILOT
+------------------------------------------------------------
+Run app.js for me and show the output. If it needs any input,
+tell me what to type.
+------------------------------------------------------------
+
+WHAT TO EXPECT
+- Copilot suggests a command such as:  node app.js
+- It asks for your permission to run the command.
+- Approve it. The app runs in your terminal.
+- Provide any input it requests (e.g. your name).
+
+RUN IT YOURSELF (alternative)
+You can also just run it directly:
+
+    node app.js          # for the Node.js example
+    python number_guess.py   # if you built the Python variation
+
+IF SOMETHING BREAKS
+Paste the error back to Copilot with a prompt like:
+
+------------------------------------------------------------
+Running app.js gave this error. Explain what went wrong and fix it:
+
+<paste the error text here>
+------------------------------------------------------------
+
+WHAT SUCCESS LOOKS LIKE
+- The program runs and prints its expected output.
+- You have seen your generated app actually work end to end.

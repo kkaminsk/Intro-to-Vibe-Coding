@@ -1,0 +1,39 @@
+========================================
+STEP 4 — CREATE A SIMPLE APP
+========================================
+
+GOAL
+Have Copilot generate a small, runnable program for you — no manual
+coding required. This is your first "vibe coding" prompt.
+
+TYPE THIS PROMPT INTO COPILOT
+Copy the prompt below into your interactive Copilot session:
+
+------------------------------------------------------------
+Create a simple Node.js command-line app in this folder called
+app.js. It should ask the user for their name, then print a
+friendly greeting and the current date and time. Keep it to a
+single file with no external dependencies. After you create it,
+show me the contents of app.js.
+------------------------------------------------------------
+
+WHAT TO EXPECT
+- Copilot proposes creating app.js and shows you the code.
+- Approve the file creation when it asks for permission.
+- The file app.js now exists in your folder.
+
+TRY A VARIATION (optional)
+Pick a different tiny app if you prefer, for example:
+
+    Create a Python script number_guess.py that plays a
+    number-guessing game between 1 and 100.
+
+TIPS FOR GOOD PROMPTS
+- State the language and the file name.
+- Describe the behavior in plain English.
+- Add constraints ("single file", "no dependencies").
+- Ask it to show the result so you can review it.
+
+WHAT SUCCESS LOOKS LIKE
+- A new source file exists in your trusted folder.
+- You have read the code Copilot produced.

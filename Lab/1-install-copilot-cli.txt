@@ -1,0 +1,37 @@
+========================================
+STEP 1 — INSTALL COPILOT CLI
+========================================
+
+GOAL
+Get the GitHub Copilot CLI installed on your machine so you can
+chat with Copilot directly from a terminal.
+
+PREREQUISITES
+- Node.js 18 or newer  (check with:  node --version)
+- npm                  (check with:  npm --version)
+- An active GitHub Copilot subscription (Individual, Business, or Enterprise)
+
+INSTALL COMMAND
+Run this in your terminal (PowerShell on Windows):
+
+    npm install -g @github/copilot
+
+VERIFY THE INSTALL
+Confirm the CLI is on your PATH and check the version:
+
+    copilot --version
+
+LAUNCH IT
+Start an interactive Copilot session:
+
+    copilot
+
+WHAT SUCCESS LOOKS LIKE
+- `copilot --version` prints a version number with no error.
+- Running `copilot` opens the interactive prompt where you can type.
+
+TROUBLESHOOTING
+- "command not found": close and reopen your terminal so PATH refreshes.
+- Permission errors on install: on Windows run the terminal as
+  Administrator, or fix your npm global prefix.
+- Old Node version: upgrade to Node 18+ and reinstall.
