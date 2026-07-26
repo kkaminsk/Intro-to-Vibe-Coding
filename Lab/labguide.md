@@ -1,10 +1,10 @@
 # Lab 1 — Build Your First App with Copilot CLI
 
-## Lab Guide
+**Lab Guide** — build, run, explain, improve, and document a small app, entirely through prompts.
 
 ---
 
-## Overview
+## 📖 Overview
 
 This is your introduction to *vibe coding* — building working software by describing what you want in plain English and letting an AI agent write the code. You won't type a single line of application code yourself. Instead, you'll install **GitHub Copilot CLI**, sign in, and use prompts to create, run, understand, improve, and document a small app.
 
@@ -12,7 +12,7 @@ By the end you'll have a complete, working, documented project built entirely th
 
 ---
 
-## Lab Objectives
+## 🎯 Lab Objectives
 
 By the end of this lab, you will be able to:
 
@@ -27,10 +27,11 @@ By the end of this lab, you will be able to:
 
 ---
 
-## What You'll Build
+## 🛠️ What You'll Build
 
 A small Node.js command-line app (`app.js`) that asks the user for their name and prints a friendly greeting along with the current date and time. Over the course of the lab you'll improve it (time-of-day greetings, input handling) and finish it off with a README or a small automated test — all through prompts.
 
+> [!NOTE]
 > The examples use **Node.js** throughout, so everything runs with the same tools you already installed for the Copilot CLI — nothing extra to set up.
 
 ---
@@ -41,11 +42,12 @@ A small Node.js command-line app (`app.js`) that asks the user for their name an
 - **npm** — check with `npm --version`
 - An active **GitHub Copilot** subscription (Individual, Business, or Enterprise)
 
+> [!IMPORTANT]
 > **Need Node.js?** You need it either way: it runs the Node.js app you build in this lab, and it's required for the npm install of the Copilot CLI. (The recommended `winget` method in Step 2 doesn't need Node.js for the CLI install itself — but the lab app still does, so install Node.js regardless.) On Windows: `winget install OpenJS.NodeJS.LTS`, or install manually from <https://nodejs.org/en/download>.
 
 ---
 
-## Lab Steps
+## 📋 Lab Steps
 
 The lab is split into eight files. Work through them in order — each step builds on the same `C:\temp\lab1` project.
 
@@ -54,6 +56,7 @@ The lab is split into eight files. Work through them in order — each step buil
 
 Open a PowerShell terminal (PowerShell 7 / `pwsh` recommended, but not required), then create and enter the folder for this lab: `mkdir C:\temp\lab1` and `cd C:\temp\lab1`. Everything you build lives in this one folder.
 
+> [!NOTE]
 > **Goal:** A PowerShell terminal open in an empty `C:\temp\lab1` folder.
 
 ---
@@ -63,6 +66,7 @@ Open a PowerShell terminal (PowerShell 7 / `pwsh` recommended, but not required)
 
 Install the CLI — on Windows `winget install GitHub.Copilot` is recommended (it adds `copilot` to your PATH automatically and the install itself needs no Node.js), or use `npm install -g @github/copilot` (requires Node.js). Either way you still need Node.js to run the app you build in Steps 5–6. Verify the CLI with `copilot --version`, and launch an interactive session with `copilot`.
 
+> [!NOTE]
 > **Goal:** `copilot --version` prints a version, and running `copilot` opens the interactive prompt.
 
 ---
@@ -72,6 +76,7 @@ Install the CLI — on Windows `winget install GitHub.Copilot` is recommended (i
 
 Confirm you are in `C:\temp\lab1` (from Step 1), start Copilot, and **trust** the folder when prompted. Also choose **Yes** to "Set up terminal for multi-line input support." Trust is what lets Copilot read your files, create and edit them, and run commands.
 
+> [!NOTE]
 > **Goal:** A trusted `C:\temp\lab1` folder with Copilot ready to work in it.
 
 ---
@@ -81,6 +86,7 @@ Confirm you are in `C:\temp\lab1` (from Step 1), start Copilot, and **trust** th
 
 Sign in with the `/login` command. Copilot shows a one-time device code and a URL; you approve the CLI in your browser, then return to the terminal. Confirm your identity with `/user`.
 
+> [!NOTE]
 > **Goal:** Copilot reports a successful login tied to your GitHub account with active Copilot access.
 
 ---
@@ -90,6 +96,7 @@ Sign in with the `/login` command. Copilot shows a one-time device code and a UR
 
 Write your first prompt: ask Copilot to create `app.js` — a single-file app that asks for a name and prints a greeting with the date/time. Approve the file creation and review the code Copilot shows you.
 
+> [!TIP]
 > **Key idea:** State the language, the file name, the behavior, and any constraints (e.g. "single file, no dependencies"), then ask it to show the result.
 
 ---
@@ -99,6 +106,7 @@ Write your first prompt: ask Copilot to create `app.js` — a single-file app th
 
 Ask Copilot to run the app (`node app.js`) and approve the command, or run it yourself. Provide input when prompted and watch it work. If it errors, paste the error back to Copilot to fix it.
 
+> [!NOTE]
 > **Goal:** The program runs and prints its expected output — your first generated app working end to end.
 
 ---
@@ -108,6 +116,7 @@ Ask Copilot to run the app (`node app.js`) and approve the command, or run it yo
 
 Two parts: first ask Copilot to **explain** `app.js` line by line and point out weaknesses; then ask it to **improve** it (handle empty input, add comments, make the greeting change with the time of day). Approve the edits and re-run to confirm.
 
+> [!TIP]
 > **Key idea:** Ask for *one* improvement at a time so you can follow the changes, and always re-run afterward.
 
 ---
@@ -117,11 +126,12 @@ Two parts: first ask Copilot to **explain** `app.js` line by line and point out 
 
 Finish like a real developer: prompt Copilot to add a beginner-friendly **README.md**, and/or a small **automated test** for the greeting logic. If you add a test, ask Copilot to run it and show the results.
 
+> [!NOTE]
 > **Goal:** A documented and/or tested project — a small, complete app built entirely by prompting.
 
 ---
 
-## The Prompt-Driven Workflow (Summary)
+## 🔁 The Prompt-Driven Workflow
 
 This lab establishes the basic loop of vibe coding — you'll reuse it constantly:
 
@@ -143,9 +153,11 @@ This lab establishes the basic loop of vibe coding — you'll reuse it constantl
         └──────────────────────┘
 ```
 
+*Describe → Review → Run → Refine — then loop.*
+
 ---
 
-## Success Criteria
+## ✅ Success Criteria
 
 You have completed Lab 1 when:
 
@@ -160,7 +172,7 @@ You have completed Lab 1 when:
 
 ---
 
-## Key Takeaways
+## 🔑 Key Takeaways
 
 - **Describe intent, not syntax.** A good prompt says *what* you want in plain English, with the language, file name, and constraints.
 - **Review before you approve.** The agent proposes; you decide. Always read what it created.

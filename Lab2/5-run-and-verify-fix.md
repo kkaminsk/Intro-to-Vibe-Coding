@@ -1,12 +1,12 @@
-[← Lab 2 Guide](labguide2.md)
+[← Lab 2 Guide](labguide2.md) · **Step 5 of 5**
 
 # Lab 2 · Step 5 — Run Again and Verify the Fix
 
-## Goal
+## 🎯 Goal
 
 Prove the fix actually worked by running the app again and confirming it behaves correctly. Never trust a fix you have not re-run.
 
-## Type this prompt into Copilot
+## 💬 Type this prompt into Copilot
 
 ```text
 Run app.js again and show me the output. Confirm the error is gone and
@@ -21,7 +21,7 @@ Approve the command, and type a name when prompted.
 node app.js
 ```
 
-## What you should see
+## 👀 What you should see
 
 No error this time — a working greeting, for example:
 
@@ -50,16 +50,17 @@ Introduce one small, realistic bug into app.js and tell me what error
 to expect. Do not tell me the fix — I want to practice debugging it.
 ```
 
-## What success looks like
+## ✅ What success looks like
 
 - The app runs with no errors and prints a correct greeting.
 - You have completed a full debug cycle: broken → error → fix → verified working.
 
-## Congratulations — Lab 2 complete!
+## 🎉 Congratulations — Lab 2 complete!
 
 You learned the most valuable skill in vibe coding: turning an error message into a working fix by prompting the agent, then verifying it.
 
 ---
 
-Previous: [Step 4 — Prompt the Agent to Fix It](4-prompt-agent-to-fix.md)
-Back to the [Lab 2 Guide](labguide2.md).
+| ← Previous | ↑ Guide |
+|:--|--:|
+| [Step 4 — Prompt the Agent to Fix It](4-prompt-agent-to-fix.md) | [Back to Lab 2 Guide](labguide2.md) |

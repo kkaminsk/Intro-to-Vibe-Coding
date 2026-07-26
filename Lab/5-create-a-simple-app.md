@@ -1,12 +1,12 @@
-[← Lab 1 Guide](labguide.md)
+[← Lab 1 Guide](labguide.md) · **Step 5 of 8**
 
 # Lab 1 · Step 5 — Create a Simple App
 
-## Goal
+## 🎯 Goal
 
 Have Copilot generate a small, runnable program for you — no manual coding required. This is your first "vibe coding" prompt.
 
-## Type this prompt into Copilot
+## 💬 Type this prompt into Copilot
 
 Copy the prompt below into your interactive Copilot session:
 
@@ -18,13 +18,14 @@ single file with no external dependencies. After you create it,
 show me the contents of app.js.
 ```
 
-## What to expect
+## 👀 What to expect
 
 - Copilot proposes creating `app.js` and shows you the code.
 - Approve the file creation when it asks for permission.
 - The file `app.js` now exists in your folder.
 
-> **Note:** Copilot asks before touching your files. You will see a prompt like *"Do you want to edit `C:\temp\lab1\app.js`?"* — select **Yes** to authorize the action. This is the agent proposing while you stay in control: read what it wants to do, then approve.
+> [!NOTE]
+> Copilot asks before touching your files. You will see a prompt like *"Do you want to edit `C:\temp\lab1\app.js`?"* — select **Yes** to authorize the action. This is the agent proposing while you stay in control: read what it wants to do, then approve.
 
 ## Try a variation (optional)
 
@@ -45,12 +46,13 @@ dependencies.
 - Add constraints ("single file", "no dependencies").
 - Ask it to show the result so you can review it.
 
-## What success looks like
+## ✅ What success looks like
 
 - A new source file exists in your trusted folder.
 - You have read the code Copilot produced.
 
 ---
 
-Previous: [Step 4 — Authenticate](4-authenticate.md)
-Next: [Step 6 — Run It](6-run-it.md)
+| ← Previous | ↑ Guide | Next → |
+|:--|:--:|--:|
+| [Step 4 — Authenticate](4-authenticate.md) | [Lab 1 Guide](labguide.md) | [Step 6 — Run It](6-run-it.md) |

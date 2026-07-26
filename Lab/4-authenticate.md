@@ -1,8 +1,8 @@
-[← Lab 1 Guide](labguide.md)
+[← Lab 1 Guide](labguide.md) · **Step 4 of 8**
 
 # Lab 1 · Step 4 — Authenticate
 
-## Goal
+## 🎯 Goal
 
 Sign in to your GitHub account so Copilot CLI can use your Copilot subscription.
 
@@ -16,7 +16,7 @@ Inside an interactive Copilot session, run the slash command:
 
 (You should already be in a session from Step 3; if not, run `copilot` first.)
 
-## What happens
+## 👀 What happens
 
 1. The CLI shows a one-time device code and a URL (<https://github.com/login/device>).
 2. Open that URL in your browser.
@@ -40,7 +40,7 @@ Set a token in your environment before launching:
 $env:GH_TOKEN = "your_personal_access_token"    # PowerShell
 ```
 
-## What success looks like
+## ✅ What success looks like
 
 - The CLI reports a successful login with your GitHub username.
 - `/user` shows your account and that Copilot access is active.
@@ -52,5 +52,6 @@ $env:GH_TOKEN = "your_personal_access_token"    # PowerShell
 
 ---
 
-Previous: [Step 3 — Trust the Working Directory](3-trust-working-directory.md)
-Next: [Step 5 — Create a Simple App](5-create-a-simple-app.md)
+| ← Previous | ↑ Guide | Next → |
+|:--|:--:|--:|
+| [Step 3 — Trust the Working Directory](3-trust-working-directory.md) | [Lab 1 Guide](labguide.md) | [Step 5 — Create a Simple App](5-create-a-simple-app.md) |

@@ -1,8 +1,8 @@
-[← Lab 1 Guide](labguide.md)
+[← Lab 1 Guide](labguide.md) · **Step 8 of 8**
 
 # Lab 1 · Step 8 — Add a Small Test or README
 
-## Goal
+## 🎯 Goal
 
 Finish the project like a real developer would: document it or add a test so others (and future you) understand and trust it.
 
@@ -27,7 +27,7 @@ test file that checks it returns the right greeting for morning,
 afternoon, and evening. Show me how to run the test.
 ```
 
-## What to expect
+## 👀 What to expect
 
 - Copilot creates `README.md` and/or a test file and asks to save them.
 - Approve the changes.
@@ -40,16 +40,17 @@ Run the test and show me the output. If it fails, fix it and run
 it again.
 ```
 
-## What success looks like
+## ✅ What success looks like
 
 - Your folder now has a `README.md` and/or a passing test.
 - You have a small, documented, working project built entirely by prompting Copilot CLI.
 
-## Congratulations — lab complete!
+## 🎉 Congratulations — lab complete!
 
 You installed Copilot CLI, authenticated, trusted a folder, and used prompts to create, run, improve, and document a real app.
 
 ---
 
-Previous: [Step 7 — Ask Copilot to Explain and Improve It](7-explain-and-improve.md)
-Back to the [Lab 1 Guide](labguide.md).
+| ← Previous | ↑ Guide |
+|:--|--:|
+| [Step 7 — Explain and Improve It](7-explain-and-improve.md) | [Back to Lab 1 Guide](labguide.md) |
