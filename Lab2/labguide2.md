@@ -61,7 +61,7 @@ This is a common, realistic mistake and it produces a clear, readable error — 
   npm install -g @github/copilot     # or, cross-platform (requires Node.js)
   ```
 
-  Then run `copilot` and `/login` inside the session.
+  Then run `copilot` and `/login` inside the session. If you used npm and `copilot` is later "not recognized", its folder isn't on your PATH — see the PATH fix in [Lab 1, Step 2](../Lab/2-install-copilot-cli.md#troubleshooting) (the `winget` install avoids it).
 - Node.js 18+ (`node --version` to check) — needed to run the `app.js` you'll debug (it's a Node.js program), and for the npm install of Copilot above. The `winget` install of Copilot doesn't need it. On Windows, install Node with `winget install OpenJS.NodeJS.LTS`, or manually from <https://nodejs.org/en/download>.
 
 ---

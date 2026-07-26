@@ -21,6 +21,12 @@ In Lab 1 you built a working app. Real development is rarely that clean — code
 
   Then start it with `copilot` and run `/login` inside the session.
 
+  **If `copilot` is "not recognized" after the npm install,** its folder (`%AppData%\npm`) isn't on your PATH — the `winget` install avoids this. To fix npm's PATH, run this and open a new terminal (full details in [Lab 1, Step 2](../Lab/2-install-copilot-cli.md#troubleshooting)):
+
+  ```powershell
+  [Environment]::SetEnvironmentVariable("Path", [Environment]::GetEnvironmentVariable("Path","User") + ";$env:APPDATA\npm", "User")
+  ```
+
 ## Create and enter a new project folder
 
 In your PowerShell terminal, create a fresh folder for this lab and move into it — kept separate from Lab 1's `C:\temp\lab1`:
