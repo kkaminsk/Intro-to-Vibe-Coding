@@ -1,5 +1,5 @@
 ========================================
-STEP 4 — CREATE A SIMPLE APP
+STEP 5 — CREATE A SIMPLE APP
 ========================================
 
 GOAL

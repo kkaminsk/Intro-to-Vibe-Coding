@@ -54,13 +54,14 @@ Confirm each attendee has:
 
 ## 30–55 min — Crash Course Lab: Copilot CLI Hello World
 
-1. Install Copilot CLI.
-2. Authenticate.
-3. Trust the working directory.
-4. Create a simple app.
-5. Run it.
-6. Ask Copilot to explain and improve it.
-7. Add a small test or README.
+1. Open PowerShell and create the lab folder (`C:\temp\lab1`).
+2. Install Copilot CLI.
+3. Authenticate.
+4. Trust the working directory.
+5. Create a simple app.
+6. Run it.
+7. Ask Copilot to explain and improve it.
+8. Add a small test or README.
 
 > **Note:** GitHub's current docs say Copilot CLI is available with all Copilot plans, but organizations may need to enable the policy. It also supports trusted directories, tool access, and file/URL permissions.
 

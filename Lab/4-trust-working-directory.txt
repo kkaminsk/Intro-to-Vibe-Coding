@@ -1,5 +1,5 @@
 ========================================
-STEP 3 — TRUST THE WORKING DIRECTORY
+STEP 4 — TRUST THE WORKING DIRECTORY
 ========================================
 
 GOAL
@@ -7,11 +7,11 @@ Tell Copilot CLI it is safe to read, write, and run commands in the
 folder you are working in. Copilot will not act on files in an
 untrusted directory.
 
-CREATE AND ENTER A PROJECT FOLDER FIRST
-In your terminal:
+MAKE SURE YOU ARE IN YOUR LAB FOLDER
+You created and entered C:\temp\lab1 back in Step 1. Confirm you are
+still there (and cd back in if not):
 
-    mkdir hello-copilot
-    cd hello-copilot
+    cd C:\temp\lab1
 
 START COPILOT IN THAT FOLDER
     copilot
@@ -23,6 +23,8 @@ trust this directory. You will see a prompt similar to:
     "Do you trust the files in this folder?"
 
 Choose to TRUST the current folder so Copilot can work with your files.
+(If you already logged in from this folder in Step 3, you may have
+been asked to trust it then — if so, you are already set.)
 
 WHY THIS MATTERS
 Trusting a directory lets Copilot:
@@ -40,4 +42,4 @@ MANAGE TRUST LATER
 
 WHAT SUCCESS LOOKS LIKE
 - You confirmed trust and the interactive prompt is ready.
-- Copilot can now see and modify files inside `hello-copilot`.
+- Copilot can now see and modify files inside `C:\temp\lab1`.

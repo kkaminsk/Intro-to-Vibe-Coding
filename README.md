@@ -28,13 +28,14 @@ Install and authenticate Copilot CLI, trust a folder, then generate, run, explai
 
 Prompt files (work through them in order):
 
-1. [Install Copilot CLI](Lab/1-install-copilot-cli.txt)
-2. [Authenticate](Lab/2-authenticate.txt)
-3. [Trust the Working Directory](Lab/3-trust-working-directory.txt)
-4. [Create a Simple App](Lab/4-create-a-simple-app.txt)
-5. [Run It](Lab/5-run-it.txt)
-6. [Explain and Improve It](Lab/6-explain-and-improve.txt)
-7. [Add a Small Test or README](Lab/7-add-test-or-readme.txt)
+1. [Open PowerShell and Create Your Lab Folder](Lab/1-open-powershell-and-create-folder.txt)
+2. [Install Copilot CLI](Lab/2-install-copilot-cli.txt)
+3. [Authenticate](Lab/3-authenticate.txt)
+4. [Trust the Working Directory](Lab/4-trust-working-directory.txt)
+5. [Create a Simple App](Lab/5-create-a-simple-app.txt)
+6. [Run It](Lab/6-run-it.txt)
+7. [Explain and Improve It](Lab/7-explain-and-improve.txt)
+8. [Add a Small Test or README](Lab/8-add-test-or-readme.txt)
 
 ### Lab 2 — Fix a Broken App *(Bonus, Optional)*
 📕 **[Lab 2 Guide → Lab2/labguide2.md](Lab2/labguide2.md)**

@@ -1,5 +1,5 @@
 ========================================
-STEP 6 — ASK COPILOT TO EXPLAIN AND IMPROVE IT
+STEP 7 — ASK COPILOT TO EXPLAIN AND IMPROVE IT
 ========================================
 
 GOAL
@@ -31,7 +31,7 @@ Show me the updated file, then explain what you changed.
 
 WHAT TO EXPECT
 - Copilot edits app.js and summarizes its changes.
-- Approve the edits, then re-run the app (see Step 5) to confirm it
+- Approve the edits, then re-run the app (see Step 6) to confirm it
   still works and the improvements are visible.
 
 TIPS

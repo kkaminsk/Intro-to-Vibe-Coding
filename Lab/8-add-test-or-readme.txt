@@ -1,5 +1,5 @@
 ========================================
-STEP 7 — ADD A SMALL TEST OR README
+STEP 8 — ADD A SMALL TEST OR README
 ========================================
 
 GOAL

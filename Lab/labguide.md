@@ -46,10 +46,19 @@ A small Node.js command-line app (`app.js`) that asks the user for their name an
 
 ## Lab Steps
 
-The lab is split into seven files. Work through them in order — each step builds on the same `hello-copilot` project.
+The lab is split into eight files. Work through them in order — each step builds on the same `C:\temp\lab1` project.
 
-### Step 1 — Install Copilot CLI
-**File:** `1-install-copilot-cli.txt`
+### Step 1 — Open PowerShell and Create Your Lab Folder
+**File:** `1-open-powershell-and-create-folder.txt`
+
+Open a PowerShell terminal (PowerShell 7 / `pwsh` recommended, but not required), then create and enter the folder for this lab: `mkdir C:\temp\lab1` and `cd C:\temp\lab1`. Everything you build lives in this one folder.
+
+> **Goal:** A PowerShell terminal open in an empty `C:\temp\lab1` folder.
+
+---
+
+### Step 2 — Install Copilot CLI
+**File:** `2-install-copilot-cli.txt`
 
 Install the CLI globally with `npm install -g @github/copilot`, verify it with `copilot --version`, and launch an interactive session with `copilot`.
 
@@ -57,8 +66,8 @@ Install the CLI globally with `npm install -g @github/copilot`, verify it with `
 
 ---
 
-### Step 2 — Authenticate
-**File:** `2-authenticate.txt`
+### Step 3 — Authenticate
+**File:** `3-authenticate.txt`
 
 Sign in with the `/login` command. Copilot shows a one-time device code and a URL; you approve the CLI in your browser, then return to the terminal. Confirm your identity with `/user`.
 
@@ -66,17 +75,17 @@ Sign in with the `/login` command. Copilot shows a one-time device code and a UR
 
 ---
 
-### Step 3 — Trust the Working Directory
-**File:** `3-trust-working-directory.txt`
+### Step 4 — Trust the Working Directory
+**File:** `4-trust-working-directory.txt`
 
-Create a project folder (`hello-copilot`), `cd` into it, start Copilot, and **trust** the folder when prompted. Trust is what lets Copilot read your files, create and edit them, and run commands.
+Confirm you are in `C:\temp\lab1` (from Step 1), start Copilot, and **trust** the folder when prompted. Trust is what lets Copilot read your files, create and edit them, and run commands.
 
-> **Goal:** A trusted `hello-copilot` folder with Copilot ready to work in it.
+> **Goal:** A trusted `C:\temp\lab1` folder with Copilot ready to work in it.
 
 ---
 
-### Step 4 — Create a Simple App
-**File:** `4-create-a-simple-app.txt`
+### Step 5 — Create a Simple App
+**File:** `5-create-a-simple-app.txt`
 
 Write your first prompt: ask Copilot to create `app.js` — a single-file app that asks for a name and prints a greeting with the date/time. Approve the file creation and review the code Copilot shows you.
 
@@ -84,8 +93,8 @@ Write your first prompt: ask Copilot to create `app.js` — a single-file app th
 
 ---
 
-### Step 5 — Run It
-**File:** `5-run-it.txt`
+### Step 6 — Run It
+**File:** `6-run-it.txt`
 
 Ask Copilot to run the app (`node app.js`) and approve the command, or run it yourself. Provide input when prompted and watch it work. If it errors, paste the error back to Copilot to fix it.
 
@@ -93,8 +102,8 @@ Ask Copilot to run the app (`node app.js`) and approve the command, or run it yo
 
 ---
 
-### Step 6 — Ask Copilot to Explain and Improve It
-**File:** `6-explain-and-improve.txt`
+### Step 7 — Ask Copilot to Explain and Improve It
+**File:** `7-explain-and-improve.txt`
 
 Two parts: first ask Copilot to **explain** `app.js` line by line and point out weaknesses; then ask it to **improve** it (handle empty input, add comments, make the greeting change with the time of day). Approve the edits and re-run to confirm.
 
@@ -102,8 +111,8 @@ Two parts: first ask Copilot to **explain** `app.js` line by line and point out 
 
 ---
 
-### Step 7 — Add a Small Test or README
-**File:** `7-add-test-or-readme.txt`
+### Step 8 — Add a Small Test or README
+**File:** `8-add-test-or-readme.txt`
 
 Finish like a real developer: prompt Copilot to add a beginner-friendly **README.md**, and/or a small **automated test** for the greeting logic. If you add a test, ask Copilot to run it and show the results.
 
@@ -141,7 +150,7 @@ You have completed Lab 1 when:
 
 - ✅ `copilot --version` works and you can launch an interactive session.
 - ✅ You are signed in with active Copilot access (`/user` confirms it).
-- ✅ You trusted the `hello-copilot` folder.
+- ✅ You opened PowerShell, created `C:\temp\lab1`, and trusted the folder.
 - ✅ Copilot generated `app.js` from your prompt and you reviewed it.
 - ✅ The app runs and prints a correct greeting.
 - ✅ You had Copilot explain the code and make a meaningful improvement.
