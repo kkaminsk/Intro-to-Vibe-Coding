@@ -56,8 +56,8 @@ Confirm each attendee has:
 
 1. Open PowerShell and create the lab folder (`C:\temp\lab1`).
 2. Install Copilot CLI.
-3. Authenticate.
-4. Trust the working directory.
+3. Trust the working directory.
+4. Authenticate.
 5. Create a simple app.
 6. Run it.
 7. Ask Copilot to explain and improve it.

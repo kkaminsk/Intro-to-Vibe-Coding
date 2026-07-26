@@ -1,5 +1,5 @@
 ========================================
-STEP 4 — TRUST THE WORKING DIRECTORY
+STEP 3 — TRUST THE WORKING DIRECTORY
 ========================================
 
 GOAL
@@ -23,8 +23,14 @@ trust this directory. You will see a prompt similar to:
     "Do you trust the files in this folder?"
 
 Choose to TRUST the current folder so Copilot can work with your files.
-(If you already logged in from this folder in Step 3, you may have
-been asked to trust it then — if so, you are already set.)
+
+SET UP MULTI-LINE INPUT
+After trusting the folder, Copilot may ask:
+
+    "Set up terminal for multi-line input support?"
+
+Choose YES — this lets you paste multi-line prompts (like the ones in
+later steps) without them being sent line by line.
 
 WHY THIS MATTERS
 Trusting a directory lets Copilot:

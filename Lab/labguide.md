@@ -66,21 +66,21 @@ Install the CLI — on Windows `winget install GitHub.Copilot` is recommended (i
 
 ---
 
-### Step 3 — Authenticate
-**File:** `3-authenticate.txt`
+### Step 3 — Trust the Working Directory
+**File:** `3-trust-working-directory.txt`
+
+Confirm you are in `C:\temp\lab1` (from Step 1), start Copilot, and **trust** the folder when prompted. Also choose **Yes** to "Set up terminal for multi-line input support." Trust is what lets Copilot read your files, create and edit them, and run commands.
+
+> **Goal:** A trusted `C:\temp\lab1` folder with Copilot ready to work in it.
+
+---
+
+### Step 4 — Authenticate
+**File:** `4-authenticate.txt`
 
 Sign in with the `/login` command. Copilot shows a one-time device code and a URL; you approve the CLI in your browser, then return to the terminal. Confirm your identity with `/user`.
 
 > **Goal:** Copilot reports a successful login tied to your GitHub account with active Copilot access.
-
----
-
-### Step 4 — Trust the Working Directory
-**File:** `4-trust-working-directory.txt`
-
-Confirm you are in `C:\temp\lab1` (from Step 1), start Copilot, and **trust** the folder when prompted. Trust is what lets Copilot read your files, create and edit them, and run commands.
-
-> **Goal:** A trusted `C:\temp\lab1` folder with Copilot ready to work in it.
 
 ---
 
