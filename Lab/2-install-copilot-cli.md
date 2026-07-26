@@ -28,6 +28,11 @@ Then confirm it is on your PATH:
 
 ```powershell
 node --version
+```
+
+Or
+
+```powershell
 npm --version
 ```
 
