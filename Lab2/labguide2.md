@@ -52,13 +52,14 @@ This is a common, realistic mistake and it produces a clear, readable error — 
 ## Prerequisites
 
 - Completion of **Lab 1** (Copilot CLI installed and authenticated).
-- If you skipped Lab 1, install and sign in first:
+- If you skipped Lab 1, install and sign in first. On Windows, `winget` is recommended (it needs no Node.js):
   ```
+  winget install GitHub.Copilot     # recommended on Windows
+  # — or, cross-platform (requires Node.js): —
   npm install -g @github/copilot
-  copilot
   ```
-  Then run `/login` inside the Copilot session.
-- Node.js 18+ (`node --version` to check). On Windows, install with `winget install OpenJS.NodeJS.LTS`, or manually from <https://nodejs.org/en/download>.
+  Then run `copilot` and `/login` inside the session.
+- Node.js 18+ (`node --version` to check) — needed to run the `app.js` you'll debug (it's a Node.js program), and for the npm install of Copilot above. The `winget` install of Copilot doesn't need it. On Windows, install Node with `winget install OpenJS.NodeJS.LTS`, or manually from <https://nodejs.org/en/download>.
 
 ---
 
@@ -69,7 +70,7 @@ The lab is split into five files. Work through them in order — each step depen
 ### Step 1 — Set Up and Trust a New Folder
 **File:** [`1-setup-and-trust.md`](1-setup-and-trust.md)
 
-Create a fresh, empty project folder (`fix-the-app`), start Copilot inside it, and **trust** the folder when prompted. Trust is what allows Copilot to read, edit, and run your files. Starting in a clean folder keeps this exercise isolated from Lab 1.
+Create a fresh, empty project folder (`C:\temp\lab2`), start Copilot inside it, and **trust** the folder when prompted. Trust is what allows Copilot to read, edit, and run your files. Starting in a clean folder keeps this exercise isolated from Lab 1's `C:\temp\lab1`.
 
 > **Goal:** A new trusted folder with Copilot running and ready.
 

@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Repository Is
 
-This is a **curriculum / workshop-materials repository**, not a software project. It holds the teaching content for a one-hour introductory session on "vibe coding" — building software by describing intent to an AI coding assistant (GitHub Copilot CLI). There is **no application source to build, and no test suite or lint config**; the only executable artifacts are tiny `app.js` demos that *workshop participants generate themselves* inside throwaway folders (`hello-copilot`, `fix-the-app`) that are never committed here.
+This is a **curriculum / workshop-materials repository**, not a software project. It holds the teaching content for a one-hour introductory session on "vibe coding" — building software by describing intent to an AI coding assistant (GitHub Copilot CLI). There is **no application source to build, and no test suite or lint config**; the only executable artifacts are tiny `app.js` demos that *workshop participants generate themselves* inside throwaway folders (`C:\temp\lab1`, `C:\temp\lab2`) that are never committed here.
 
 Consequently, requests are almost always about **authoring, editing, or reorganizing instructional content** — prose, prompt files, agendas — not about writing or running code. There is no `npm build`/`test`/`lint` to run in this repo.
 

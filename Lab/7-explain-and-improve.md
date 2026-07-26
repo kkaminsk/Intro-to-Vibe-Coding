@@ -1,6 +1,6 @@
 [← Lab 1 Guide](labguide.md)
 
-# Step 7 — Ask Copilot to Explain and Improve It
+# Lab 1 · Step 7 — Ask Copilot to Explain and Improve It
 
 ## Goal
 

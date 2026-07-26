@@ -1,6 +1,6 @@
 [← Lab 1 Guide](labguide.md)
 
-# Step 6 — Run It
+# Lab 1 · Step 6 — Run It
 
 ## Goal
 

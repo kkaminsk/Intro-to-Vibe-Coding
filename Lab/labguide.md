@@ -16,13 +16,14 @@ By the end you'll have a complete, working, documented project built entirely th
 
 By the end of this lab, you will be able to:
 
-1. **Install and launch Copilot CLI** from your terminal.
-2. **Authenticate** the CLI against your GitHub Copilot subscription.
+1. **Open a terminal and set up a clean working folder** for your project.
+2. **Install and launch Copilot CLI** from your terminal.
 3. **Trust a working directory** so Copilot can read, edit, and run your files.
-4. **Generate a working app from a prompt** — describing behavior in plain English instead of writing code.
-5. **Run your app** and see it work end to end.
-6. **Use the agent to explain and improve code**, learning from it rather than just running it.
-7. **Document or test your project** by prompting Copilot to add a README or a small test.
+4. **Authenticate** the CLI against your GitHub Copilot subscription.
+5. **Generate a working app from a prompt** — describing behavior in plain English instead of writing code.
+6. **Run your app** and see it work end to end.
+7. **Use the agent to explain and improve code**, learning from it rather than just running it.
+8. **Document or test your project** by prompting Copilot to add a README or a small test.
 
 ---
 
@@ -40,7 +41,7 @@ A small Node.js command-line app (`app.js`) that asks the user for their name an
 - **npm** — check with `npm --version`
 - An active **GitHub Copilot** subscription (Individual, Business, or Enterprise)
 
-> **Need Node.js?** It's required for the Copilot CLI itself (the CLI installs via npm). On Windows: `winget install OpenJS.NodeJS.LTS`, or install manually from <https://nodejs.org/en/download>.
+> **Need Node.js?** You'll use it to run the Node.js app you build, and it's required for the npm install of the Copilot CLI (the recommended `winget` method in Step 2 doesn't need it). On Windows: `winget install OpenJS.NodeJS.LTS`, or install manually from <https://nodejs.org/en/download>.
 
 ---
 
@@ -148,9 +149,10 @@ This lab establishes the basic loop of vibe coding — you'll reuse it constantl
 
 You have completed Lab 1 when:
 
+- ✅ You opened PowerShell and created the `C:\temp\lab1` folder.
 - ✅ `copilot --version` works and you can launch an interactive session.
+- ✅ You trusted the `C:\temp\lab1` folder.
 - ✅ You are signed in with active Copilot access (`/user` confirms it).
-- ✅ You opened PowerShell, created `C:\temp\lab1`, and trusted the folder.
 - ✅ Copilot generated `app.js` from your prompt and you reviewed it.
 - ✅ The app runs and prints a correct greeting.
 - ✅ You had Copilot explain the code and make a meaningful improvement.

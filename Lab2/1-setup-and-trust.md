@@ -9,19 +9,26 @@ In Lab 1 you built a working app. Real development is rarely that clean — code
 ## Prerequisites
 
 - You completed Lab 1 (Copilot CLI installed and authenticated).
-- If not, install and log in first (needs Node.js — see [Lab 1, Step 1](../Lab/1-open-powershell-and-create-folder.md)):
+- If not, install and sign in first. On Windows, `winget` is recommended (it needs no Node.js — see [Lab 1, Step 2](../Lab/2-install-copilot-cli.md)):
 
   ```powershell
+  winget install GitHub.Copilot        # recommended on Windows
+  # — or, cross-platform (requires Node.js): —
   npm install -g @github/copilot
+
   copilot        # then run  /login  inside the session
   ```
 
 ## Create and enter a new project folder
 
+In your PowerShell terminal, create a fresh folder for this lab and move into it — kept separate from Lab 1's `C:\temp\lab1`:
+
 ```powershell
-mkdir fix-the-app
-cd fix-the-app
+mkdir C:\temp\lab2
+cd C:\temp\lab2
 ```
+
+(`mkdir` creates `C:\temp` if it doesn't already exist.)
 
 ## Start Copilot in that folder
 
@@ -35,7 +42,7 @@ When Copilot asks whether you trust the files in this folder, choose to **TRUST*
 
 ## What success looks like
 
-- You are in a new, empty folder called `fix-the-app`.
+- You are in a new, empty folder called `C:\temp\lab2`.
 - Copilot is running and the folder is trusted.
 
 ---

@@ -48,7 +48,7 @@ Confirm each attendee has:
 - [ ] A GitHub account with Copilot access
 - [ ] A terminal ready to go
 - [ ] VS Code (optional)
-- [ ] Node.js 18+ installed — `winget install OpenJS.NodeJS.LTS`, or manually from https://nodejs.org/en/download (required for the Copilot CLI)
+- [ ] Node.js 18+ installed — `winget install OpenJS.NodeJS.LTS`, or manually from https://nodejs.org/en/download (runs the demo app; also needed for the npm install of Copilot CLI)
 
 ---
 

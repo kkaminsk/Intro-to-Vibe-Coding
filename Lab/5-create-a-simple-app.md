@@ -1,6 +1,6 @@
 [← Lab 1 Guide](labguide.md)
 
-# Step 5 — Create a Simple App
+# Lab 1 · Step 5 — Create a Simple App
 
 ## Goal
 

@@ -1,6 +1,6 @@
 [← Lab 1 Guide](labguide.md)
 
-# Step 1 — Open PowerShell and Create Your Lab Folder
+# Lab 1 · Step 1 — Open PowerShell and Create Your Lab Folder
 
 ## Goal
 

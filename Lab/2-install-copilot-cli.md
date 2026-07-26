@@ -1,6 +1,6 @@
 [← Lab 1 Guide](labguide.md)
 
-# Step 2 — Install Copilot CLI
+# Lab 1 · Step 2 — Install Copilot CLI
 
 ## Goal
 

@@ -1,6 +1,6 @@
 [← Lab 1 Guide](labguide.md)
 
-# Step 4 — Authenticate
+# Lab 1 · Step 4 — Authenticate
 
 ## Goal
 

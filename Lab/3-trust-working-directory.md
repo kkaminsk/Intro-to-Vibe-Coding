@@ -1,6 +1,6 @@
 [← Lab 1 Guide](labguide.md)
 
-# Step 3 — Trust the Working Directory
+# Lab 1 · Step 3 — Trust the Working Directory
 
 ## Goal
 

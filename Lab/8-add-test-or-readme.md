@@ -1,6 +1,6 @@
 [← Lab 1 Guide](labguide.md)
 
-# Step 8 — Add a Small Test or README
+# Lab 1 · Step 8 — Add a Small Test or README
 
 ## Goal
 
