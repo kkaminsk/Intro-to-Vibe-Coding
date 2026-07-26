@@ -62,7 +62,7 @@ Prompt files (work through them in order):
 - An active **GitHub Copilot** subscription (Individual, Business, or Enterprise)
 - A terminal (PowerShell 7 recommended on Windows, not required) — VS Code optional
 
-> **Why Node.js?** You'll use it to run the Node.js demo app you build in the labs. It's also required if you install the Copilot CLI with `npm` — though the recommended `winget` method below doesn't need it.
+> **Why Node.js?** You need it either way: it runs the Node.js demo app you build in the labs, and it's required if you install the Copilot CLI with `npm`. The recommended `winget` method below doesn't need Node.js for the CLI install itself — but the labs still do, so install Node.js regardless.
 
 Install Node.js on Windows:
 
@@ -72,7 +72,7 @@ winget install OpenJS.NodeJS.LTS
 
 Or download and run the installer manually from **<https://nodejs.org/en/download>**, then verify with `node --version` and `npm --version`.
 
-Install Copilot CLI and sign in. On Windows, `winget` is recommended — it adds `copilot` to your PATH automatically and doesn't require Node.js:
+Install Copilot CLI and sign in. On Windows, `winget` is recommended — it adds `copilot` to your PATH automatically and the install itself doesn't require Node.js (the labs still do — see above):
 
 ```
 winget install GitHub.Copilot     # recommended on Windows

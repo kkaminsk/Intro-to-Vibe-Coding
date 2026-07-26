@@ -52,7 +52,7 @@ This is a common, realistic mistake and it produces a clear, readable error — 
 ## Prerequisites
 
 - Completion of **Lab 1** (Copilot CLI installed and authenticated).
-- If you skipped Lab 1, install and sign in first. On Windows, `winget` is recommended (it needs no Node.js):
+- If you skipped Lab 1, install and sign in first. On Windows, `winget` is recommended (the CLI install itself needs no Node.js — but the lab still does, see the Node.js prerequisite below):
   ```
   winget install GitHub.Copilot     # recommended on Windows
   ```
@@ -62,7 +62,7 @@ This is a common, realistic mistake and it produces a clear, readable error — 
   ```
 
   Then run `copilot` and `/login` inside the session. If you used npm and `copilot` is later "not recognized", its folder isn't on your PATH — see the PATH fix in [Lab 1, Step 2](../Lab/2-install-copilot-cli.md#troubleshooting) (the `winget` install avoids it).
-- Node.js 18+ (`node --version` to check) — needed to run the `app.js` you'll debug (it's a Node.js program), and for the npm install of Copilot above. The `winget` install of Copilot doesn't need it. On Windows, install Node with `winget install OpenJS.NodeJS.LTS`, or manually from <https://nodejs.org/en/download>.
+- Node.js 18+ (`node --version` to check) — **required for this lab either way**: it runs the `app.js` you'll debug (a Node.js program), and it's also needed for the npm install of Copilot above. Only the `winget` install of the Copilot CLI itself works without it — so even if you used `winget`, you still need Node.js here. On Windows, install Node with `winget install OpenJS.NodeJS.LTS`, or manually from <https://nodejs.org/en/download>.
 
 ---
 

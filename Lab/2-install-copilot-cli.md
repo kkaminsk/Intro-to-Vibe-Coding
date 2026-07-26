@@ -12,7 +12,7 @@ Get the GitHub Copilot CLI installed on your machine so you can chat with Copilo
 - npm (check with `npm --version`)
 - An active GitHub Copilot subscription (Individual, Business, or Enterprise)
 
-Node.js is needed to **run** the Node.js app you build later in this lab (Steps 5–6). It is also required if you install the Copilot CLI with npm (Option B below) — but **not** if you install it with winget (Option A), which bundles everything the CLI needs.
+**You need Node.js for this lab no matter how you install the Copilot CLI** — it runs the Node.js app you build later in this lab (Steps 5–6). Node.js is *also* required to install the CLI with npm (Option B below). The winget install (Option A) is the only piece that doesn't need it, because it bundles everything the CLI itself needs — but don't skip installing Node.js: the rest of the lab still depends on it.
 
 ### Install Node.js (Windows)
 
@@ -42,7 +42,7 @@ Pick **one** of the two methods below.
 
 ### Option A — winget (recommended on Windows)
 
-Installs the official GitHub Copilot CLI and adds it to your PATH automatically, so you avoid the npm PATH issue in [Troubleshooting](#troubleshooting). It does not require Node.js, and installs PowerShell 7 if you don't have it:
+Installs the official GitHub Copilot CLI and adds it to your PATH automatically, so you avoid the npm PATH issue in [Troubleshooting](#troubleshooting). The install itself does not require Node.js (you still need Node.js for the rest of this lab — see [Prerequisites](#prerequisites)), and it installs PowerShell 7 if you don't have it:
 
 ```powershell
 winget install GitHub.Copilot

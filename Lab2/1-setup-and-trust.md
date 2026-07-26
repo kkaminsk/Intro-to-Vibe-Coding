@@ -9,7 +9,8 @@ In Lab 1 you built a working app. Real development is rarely that clean — code
 ## Prerequisites
 
 - You completed Lab 1 (Copilot CLI installed and authenticated).
-- If not, install and sign in first. On Windows, `winget` is recommended (it needs no Node.js — see [Lab 1, Step 2](../Lab/2-install-copilot-cli.md)):
+- Node.js 18+ (`node --version` to check) — this lab's `app.js` is a Node.js program, so you need Node.js no matter how you installed the Copilot CLI. On Windows: `winget install OpenJS.NodeJS.LTS`, or manually from <https://nodejs.org/en/download>.
+- If you haven't installed the Copilot CLI, install and sign in first. On Windows, `winget` is recommended (the CLI install itself needs no Node.js — see [Lab 1, Step 2](../Lab/2-install-copilot-cli.md)):
 
   ```powershell
   winget install GitHub.Copilot        # recommended on Windows

@@ -41,7 +41,7 @@ A small Node.js command-line app (`app.js`) that asks the user for their name an
 - **npm** — check with `npm --version`
 - An active **GitHub Copilot** subscription (Individual, Business, or Enterprise)
 
-> **Need Node.js?** You'll use it to run the Node.js app you build, and it's required for the npm install of the Copilot CLI (the recommended `winget` method in Step 2 doesn't need it). On Windows: `winget install OpenJS.NodeJS.LTS`, or install manually from <https://nodejs.org/en/download>.
+> **Need Node.js?** You need it either way: it runs the Node.js app you build in this lab, and it's required for the npm install of the Copilot CLI. (The recommended `winget` method in Step 2 doesn't need Node.js for the CLI install itself — but the lab app still does, so install Node.js regardless.) On Windows: `winget install OpenJS.NodeJS.LTS`, or install manually from <https://nodejs.org/en/download>.
 
 ---
 
@@ -61,7 +61,7 @@ Open a PowerShell terminal (PowerShell 7 / `pwsh` recommended, but not required)
 ### Step 2 — Install Copilot CLI
 **File:** [`2-install-copilot-cli.md`](2-install-copilot-cli.md)
 
-Install the CLI — on Windows `winget install GitHub.Copilot` is recommended (it adds `copilot` to your PATH automatically and needs no Node.js), or use `npm install -g @github/copilot`. Verify it with `copilot --version`, and launch an interactive session with `copilot`.
+Install the CLI — on Windows `winget install GitHub.Copilot` is recommended (it adds `copilot` to your PATH automatically and the install itself needs no Node.js), or use `npm install -g @github/copilot` (requires Node.js). Either way you still need Node.js to run the app you build in Steps 5–6. Verify the CLI with `copilot --version`, and launch an interactive session with `copilot`.
 
 > **Goal:** `copilot --version` prints a version, and running `copilot` opens the interactive prompt.
 
