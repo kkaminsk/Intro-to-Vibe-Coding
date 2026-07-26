@@ -10,9 +10,11 @@ PREREQUISITES
 - Node.js 18 or newer  (check with:  node --version)
 - npm                  (check with:  npm --version)
 - An active GitHub Copilot subscription (Individual, Business, or Enterprise)
-Node.js is required for the Copilot CLI itself — the CLI installs as a
-global npm package, so you need Node even if you later build the app in
-another language.
+
+Node.js is needed to RUN the Node.js app you build later in this lab
+(Steps 5-6). It is also required if you install the Copilot CLI with
+npm (Option B below) — but NOT if you install it with winget (Option A),
+which bundles everything the CLI needs.
 
 INSTALL NODE.JS (WINDOWS)
 If node --version fails, install Node.js first. Using winget:
@@ -29,8 +31,19 @@ Then confirm it is on your PATH:
     npm --version
 
 INSTALL COMMAND
-With Node installed, install the Copilot CLI in your terminal
-(PowerShell on Windows):
+Pick ONE of the two methods below.
+
+OPTION A — winget (recommended on Windows)
+Installs the official GitHub Copilot CLI and adds it to your PATH
+automatically, so you avoid the npm PATH issue in TROUBLESHOOTING. It
+does not require Node.js, and installs PowerShell 7 if you don't have it:
+
+    winget install GitHub.Copilot
+
+OPTION B — npm (cross-platform)
+Requires Node.js (see above). Installs the CLI as a global npm package.
+On some setups the command is not on your PATH afterward — see
+TROUBLESHOOTING if `copilot` is "not recognized":
 
     npm install -g @github/copilot
 
@@ -49,7 +62,29 @@ WHAT SUCCESS LOOKS LIKE
 - Running `copilot` opens the interactive prompt where you can type.
 
 TROUBLESHOOTING
-- "command not found": close and reopen your terminal so PATH refreshes.
+- "copilot: not recognized" after the npm install (Option B) succeeded:
+  npm installed the command, but its folder is not on your PATH. (The
+  winget install in Option A avoids this entirely — switching to it is
+  the easiest fix.) The Copilot command lives in npm's global folder:
+
+      C:\Users\<you>\AppData\Roaming\npm      (i.e.  %AppData%\npm)
+
+  First just close and reopen your terminal — that fixes it if the
+  folder is already on PATH. If a FRESH terminal still fails, the
+  folder is not on PATH at all. Add it permanently (PowerShell), then
+  open a new terminal:
+
+      [Environment]::SetEnvironmentVariable(
+        "Path",
+        [Environment]::GetEnvironmentVariable("Path","User") + ";$env:APPDATA\npm",
+        "User")
+
+  To test immediately in the CURRENT terminal without reopening:
+
+      $env:Path += ";$env:APPDATA\npm"
+      copilot --version
+
+  (Confirm where npm installs global commands with:  npm config get prefix)
 - Permission errors on install: on Windows run the terminal as
   Administrator, or fix your npm global prefix.
 - Old Node version: upgrade to Node 18+ and reinstall.

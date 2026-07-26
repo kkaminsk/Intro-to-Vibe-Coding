@@ -72,10 +72,13 @@ winget install OpenJS.NodeJS.LTS
 
 Or download and run the installer manually from **<https://nodejs.org/en/download>**, then verify with `node --version` and `npm --version`.
 
-Install Copilot CLI and sign in:
+Install Copilot CLI and sign in. On Windows, `winget` is recommended — it adds `copilot` to your PATH automatically and doesn't require Node.js:
 
 ```
+winget install GitHub.Copilot     # recommended on Windows
+# — or, cross-platform (requires Node.js): —
 npm install -g @github/copilot
+
 copilot          # then run /login inside the session
 ```
 

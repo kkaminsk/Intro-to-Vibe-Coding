@@ -60,7 +60,7 @@ Open a PowerShell terminal (PowerShell 7 / `pwsh` recommended, but not required)
 ### Step 2 — Install Copilot CLI
 **File:** `2-install-copilot-cli.txt`
 
-Install the CLI globally with `npm install -g @github/copilot`, verify it with `copilot --version`, and launch an interactive session with `copilot`.
+Install the CLI — on Windows `winget install GitHub.Copilot` is recommended (it adds `copilot` to your PATH automatically and needs no Node.js), or use `npm install -g @github/copilot`. Verify it with `copilot --version`, and launch an interactive session with `copilot`.
 
 > **Goal:** `copilot --version` prints a version, and running `copilot` opens the interactive prompt.
 
