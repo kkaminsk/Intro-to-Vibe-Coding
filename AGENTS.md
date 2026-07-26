@@ -18,7 +18,7 @@ Three parallel layers describe the same session at different granularities — k
 - **`Agenda.md`** — the minute-by-minute run-of-show for the instructor (0–60 min blocks).
 - **`Lab/`** and **`Lab2/`** — the two hands-on labs. Each folder is a self-contained lab consisting of:
   - `labguide.md` / `labguide2.md` — the narrative guide (objectives, steps, success criteria, key takeaways).
-  - Numbered `*.txt` prompt files (`1-…`, `2-…`, …) — the **step-by-step scripts a student works through in order**. Each `.txt` follows a fixed template: a `STEP N — TITLE` banner, `GOAL`, the exact prompt to paste into Copilot (inside a `---` delimited block), what to expect, and `WHAT SUCCESS LOOKS LIKE`.
+  - Numbered Markdown (`.md`) prompt files (`1-…`, `2-…`, …) — the **step-by-step scripts a student works through in order**. Each follows a fixed template: a `# Step N — Title` heading, `## Goal`, the exact prompt to paste into Copilot (in a fenced code block), what to expect, a *What success looks like* section, and back/next links to the adjacent steps.
 - **`Slides/Vibe_Coding_Manual.pptx`** — the intro deck (binary; edit externally).
 
 The two labs teach complementary loops:
@@ -27,7 +27,7 @@ The two labs teach complementary loops:
 
 ## Editing Conventions
 
-- **A change is rarely local to one file.** Renaming or reordering a lab step means updating the numbered `.txt` filenames, the matching `labguide*.md`, the `README.md` links, and possibly `Agenda.md`. Cross-references are maintained by hand — grep for the old name.
+- **A change is rarely local to one file.** Renaming or reordering a lab step means updating the numbered `.md` step filenames, the matching `labguide*.md`, the `README.md` links, the back/next links inside the step files, and possibly `Agenda.md`. Cross-references are maintained by hand — grep for the old name.
 - **Match the house voice.** Content consistently frames "AI as an *assistant, not an oracle*," and repeats the workflow motifs (the DESCRIBE→REVIEW→RUN→REFINE loop, "the specification is the source of truth"). Mirror this tone and vocabulary in new material.
-- **Preserve the `.txt` template** (banner / GOAL / paste-in prompt block / success criteria) when adding a step, so all prompt files stay uniform.
+- **Preserve the step template** (heading / goal / paste-in prompt block / success criteria / back-next links) when adding a step, so all prompt files stay uniform.
 - **Lab 2 must stay optional.** The README, guide, and commit history deliberately mark it as a bonus and steer students toward "keep vibing" (extending their Lab 1 app) as the default alternative — don't reframe it as required.

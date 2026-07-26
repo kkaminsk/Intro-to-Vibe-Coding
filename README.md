@@ -28,14 +28,14 @@ Install and authenticate Copilot CLI, trust a folder, then generate, run, explai
 
 Prompt files (work through them in order):
 
-1. [Open PowerShell and Create Your Lab Folder](Lab/1-open-powershell-and-create-folder.txt)
-2. [Install Copilot CLI](Lab/2-install-copilot-cli.txt)
-3. [Trust the Working Directory](Lab/3-trust-working-directory.txt)
-4. [Authenticate](Lab/4-authenticate.txt)
-5. [Create a Simple App](Lab/5-create-a-simple-app.txt)
-6. [Run It](Lab/6-run-it.txt)
-7. [Explain and Improve It](Lab/7-explain-and-improve.txt)
-8. [Add a Small Test or README](Lab/8-add-test-or-readme.txt)
+1. [Open PowerShell and Create Your Lab Folder](Lab/1-open-powershell-and-create-folder.md)
+2. [Install Copilot CLI](Lab/2-install-copilot-cli.md)
+3. [Trust the Working Directory](Lab/3-trust-working-directory.md)
+4. [Authenticate](Lab/4-authenticate.md)
+5. [Create a Simple App](Lab/5-create-a-simple-app.md)
+6. [Run It](Lab/6-run-it.md)
+7. [Explain and Improve It](Lab/7-explain-and-improve.md)
+8. [Add a Small Test or README](Lab/8-add-test-or-readme.md)
 
 ### Lab 2 — Fix a Broken App *(Bonus, Optional)*
 📕 **[Lab 2 Guide → Lab2/labguide2.md](Lab2/labguide2.md)**
@@ -48,11 +48,11 @@ Real code often fails the first time. In this lab you deliberately start with a 
 
 Prompt files (work through them in order):
 
-1. [Set Up and Trust a New Folder](Lab2/1-setup-and-trust.txt)
-2. [Create the (Broken) App](Lab2/2-create-broken-app.txt)
-3. [Run It and Capture the Error](Lab2/3-run-and-capture-error.txt)
-4. [Prompt the Agent to Fix It](Lab2/4-prompt-agent-to-fix.txt)
-5. [Run Again and Verify the Fix](Lab2/5-run-and-verify-fix.txt)
+1. [Set Up and Trust a New Folder](Lab2/1-setup-and-trust.md)
+2. [Create the (Broken) App](Lab2/2-create-broken-app.md)
+3. [Run It and Capture the Error](Lab2/3-run-and-capture-error.md)
+4. [Prompt the Agent to Fix It](Lab2/4-prompt-agent-to-fix.md)
+5. [Run Again and Verify the Fix](Lab2/5-run-and-verify-fix.md)
 
 ---
 

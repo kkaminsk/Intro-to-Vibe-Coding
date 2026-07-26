@@ -67,7 +67,7 @@ This is a common, realistic mistake and it produces a clear, readable error — 
 The lab is split into five files. Work through them in order — each step depends on the one before it.
 
 ### Step 1 — Set Up and Trust a New Folder
-**File:** `1-setup-and-trust.txt`
+**File:** [`1-setup-and-trust.md`](1-setup-and-trust.md)
 
 Create a fresh, empty project folder (`fix-the-app`), start Copilot inside it, and **trust** the folder when prompted. Trust is what allows Copilot to read, edit, and run your files. Starting in a clean folder keeps this exercise isolated from Lab 1.
 
@@ -76,7 +76,7 @@ Create a fresh, empty project folder (`fix-the-app`), start Copilot inside it, a
 ---
 
 ### Step 2 — Create the (Broken) App
-**File:** `2-create-broken-app.txt`
+**File:** [`2-create-broken-app.md`](2-create-broken-app.md)
 
 Prompt Copilot to create `app.js` using the exact broken code provided — **without correcting it**. This guarantees the app fails on the first run so everyone gets the same error to practice on.
 
@@ -85,7 +85,7 @@ Prompt Copilot to create `app.js` using the exact broken code provided — **wit
 ---
 
 ### Step 3 — Run It and Capture the Error
-**File:** `3-run-and-capture-error.txt`
+**File:** [`3-run-and-capture-error.md`](3-run-and-capture-error.md)
 
 Run the app and watch it crash. Then **copy the full error message** — the error type (`ReferenceError`), the message (`buildGreeting is not defined`), and the file/line reference.
 
@@ -94,7 +94,7 @@ Run the app and watch it crash. Then **copy the full error message** — the err
 ---
 
 ### Step 4 — Prompt the Agent to Fix It
-**File:** `4-prompt-agent-to-fix.txt`
+**File:** [`4-prompt-agent-to-fix.md`](4-prompt-agent-to-fix.md)
 
 Paste the captured error into a prompt and ask Copilot to **explain the cause** and **fix the file**. Approve the edit when Copilot proposes it, and read the explanation so you understand *why* the fix works — not just that it does.
 
@@ -103,7 +103,7 @@ Paste the captured error into a prompt and ask Copilot to **explain the cause** 
 ---
 
 ### Step 5 — Run Again and Verify the Fix
-**File:** `5-run-and-verify-fix.txt`
+**File:** [`5-run-and-verify-fix.md`](5-run-and-verify-fix.md)
 
 Re-run the app and confirm the error is gone and the greeting prints correctly. If a *new* error appears, repeat the loop from Step 3. Finish with an optional challenge: have Copilot introduce a fresh bug for you to debug on your own.
 

@@ -1,39 +1,51 @@
-========================================
-STEP 5 — CREATE A SIMPLE APP
-========================================
+[← Lab 1 Guide](labguide.md)
 
-GOAL
-Have Copilot generate a small, runnable program for you — no manual
-coding required. This is your first "vibe coding" prompt.
+# Step 5 — Create a Simple App
 
-TYPE THIS PROMPT INTO COPILOT
+## Goal
+
+Have Copilot generate a small, runnable program for you — no manual coding required. This is your first "vibe coding" prompt.
+
+## Type this prompt into Copilot
+
 Copy the prompt below into your interactive Copilot session:
 
-------------------------------------------------------------
+```text
 Create a simple Node.js command-line app in this folder called
 app.js. It should ask the user for their name, then print a
 friendly greeting and the current date and time. Keep it to a
 single file with no external dependencies. After you create it,
 show me the contents of app.js.
-------------------------------------------------------------
+```
 
-WHAT TO EXPECT
-- Copilot proposes creating app.js and shows you the code.
+## What to expect
+
+- Copilot proposes creating `app.js` and shows you the code.
 - Approve the file creation when it asks for permission.
-- The file app.js now exists in your folder.
+- The file `app.js` now exists in your folder.
 
-TRY A VARIATION (optional)
+## Try a variation (optional)
+
 Pick a different tiny app if you prefer, for example:
 
-    Create a Python script number_guess.py that plays a
-    number-guessing game between 1 and 100.
+```text
+Create a Python script number_guess.py that plays a
+number-guessing game between 1 and 100.
+```
 
-TIPS FOR GOOD PROMPTS
+## Tips for good prompts
+
 - State the language and the file name.
 - Describe the behavior in plain English.
 - Add constraints ("single file", "no dependencies").
 - Ask it to show the result so you can review it.
 
-WHAT SUCCESS LOOKS LIKE
+## What success looks like
+
 - A new source file exists in your trusted folder.
 - You have read the code Copilot produced.
+
+---
+
+Previous: [Step 4 — Authenticate](4-authenticate.md)
+Next: [Step 6 — Run It](6-run-it.md)

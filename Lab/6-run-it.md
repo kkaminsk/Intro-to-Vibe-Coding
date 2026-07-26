@@ -1,0 +1,50 @@
+[← Lab 1 Guide](labguide.md)
+
+# Step 6 — Run It
+
+## Goal
+
+Run the app Copilot created and see it work. Let Copilot drive the terminal for you.
+
+## Type this prompt into Copilot
+
+```text
+Run app.js for me and show the output. If it needs any input,
+tell me what to type.
+```
+
+## What to expect
+
+- Copilot suggests a command such as `node app.js`.
+- It asks for your permission to run the command.
+- Approve it. The app runs in your terminal.
+- Provide any input it requests (e.g. your name).
+
+## Run it yourself (alternative)
+
+You can also just run it directly:
+
+```powershell
+node app.js          # for the Node.js example
+python number_guess.py   # if you built the Python variation
+```
+
+## If something breaks
+
+Paste the error back to Copilot with a prompt like:
+
+```text
+Running app.js gave this error. Explain what went wrong and fix it:
+
+<paste the error text here>
+```
+
+## What success looks like
+
+- The program runs and prints its expected output.
+- You have seen your generated app actually work end to end.
+
+---
+
+Previous: [Step 5 — Create a Simple App](5-create-a-simple-app.md)
+Next: [Step 7 — Ask Copilot to Explain and Improve It](7-explain-and-improve.md)

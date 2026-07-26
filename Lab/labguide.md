@@ -49,7 +49,7 @@ A small Node.js command-line app (`app.js`) that asks the user for their name an
 The lab is split into eight files. Work through them in order — each step builds on the same `C:\temp\lab1` project.
 
 ### Step 1 — Open PowerShell and Create Your Lab Folder
-**File:** `1-open-powershell-and-create-folder.txt`
+**File:** [`1-open-powershell-and-create-folder.md`](1-open-powershell-and-create-folder.md)
 
 Open a PowerShell terminal (PowerShell 7 / `pwsh` recommended, but not required), then create and enter the folder for this lab: `mkdir C:\temp\lab1` and `cd C:\temp\lab1`. Everything you build lives in this one folder.
 
@@ -58,7 +58,7 @@ Open a PowerShell terminal (PowerShell 7 / `pwsh` recommended, but not required)
 ---
 
 ### Step 2 — Install Copilot CLI
-**File:** `2-install-copilot-cli.txt`
+**File:** [`2-install-copilot-cli.md`](2-install-copilot-cli.md)
 
 Install the CLI — on Windows `winget install GitHub.Copilot` is recommended (it adds `copilot` to your PATH automatically and needs no Node.js), or use `npm install -g @github/copilot`. Verify it with `copilot --version`, and launch an interactive session with `copilot`.
 
@@ -67,7 +67,7 @@ Install the CLI — on Windows `winget install GitHub.Copilot` is recommended (i
 ---
 
 ### Step 3 — Trust the Working Directory
-**File:** `3-trust-working-directory.txt`
+**File:** [`3-trust-working-directory.md`](3-trust-working-directory.md)
 
 Confirm you are in `C:\temp\lab1` (from Step 1), start Copilot, and **trust** the folder when prompted. Also choose **Yes** to "Set up terminal for multi-line input support." Trust is what lets Copilot read your files, create and edit them, and run commands.
 
@@ -76,7 +76,7 @@ Confirm you are in `C:\temp\lab1` (from Step 1), start Copilot, and **trust** th
 ---
 
 ### Step 4 — Authenticate
-**File:** `4-authenticate.txt`
+**File:** [`4-authenticate.md`](4-authenticate.md)
 
 Sign in with the `/login` command. Copilot shows a one-time device code and a URL; you approve the CLI in your browser, then return to the terminal. Confirm your identity with `/user`.
 
@@ -85,7 +85,7 @@ Sign in with the `/login` command. Copilot shows a one-time device code and a UR
 ---
 
 ### Step 5 — Create a Simple App
-**File:** `5-create-a-simple-app.txt`
+**File:** [`5-create-a-simple-app.md`](5-create-a-simple-app.md)
 
 Write your first prompt: ask Copilot to create `app.js` — a single-file app that asks for a name and prints a greeting with the date/time. Approve the file creation and review the code Copilot shows you.
 
@@ -94,7 +94,7 @@ Write your first prompt: ask Copilot to create `app.js` — a single-file app th
 ---
 
 ### Step 6 — Run It
-**File:** `6-run-it.txt`
+**File:** [`6-run-it.md`](6-run-it.md)
 
 Ask Copilot to run the app (`node app.js`) and approve the command, or run it yourself. Provide input when prompted and watch it work. If it errors, paste the error back to Copilot to fix it.
 
@@ -103,7 +103,7 @@ Ask Copilot to run the app (`node app.js`) and approve the command, or run it yo
 ---
 
 ### Step 7 — Ask Copilot to Explain and Improve It
-**File:** `7-explain-and-improve.txt`
+**File:** [`7-explain-and-improve.md`](7-explain-and-improve.md)
 
 Two parts: first ask Copilot to **explain** `app.js` line by line and point out weaknesses; then ask it to **improve** it (handle empty input, add comments, make the greeting change with the time of day). Approve the edits and re-run to confirm.
 
@@ -112,7 +112,7 @@ Two parts: first ask Copilot to **explain** `app.js` line by line and point out 
 ---
 
 ### Step 8 — Add a Small Test or README
-**File:** `8-add-test-or-readme.txt`
+**File:** [`8-add-test-or-readme.md`](8-add-test-or-readme.md)
 
 Finish like a real developer: prompt Copilot to add a beginner-friendly **README.md**, and/or a small **automated test** for the greeting logic. If you add a test, ask Copilot to run it and show the results.
 
