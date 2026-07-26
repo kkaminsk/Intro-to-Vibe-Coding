@@ -8,12 +8,12 @@ Hand the error to Copilot and ask it to diagnose and fix the app. Let the error 
 
 ## Type this prompt into Copilot
 
-Paste the prompt below, and replace the `<...>` section with the actual error text you copied in Step 3.
+Paste the prompt below into Copilot, using the actual error you copied in Step 3. It should look like this:
 
 ```text
 Running app.js failed with this error:
 
-<paste the full error message here>
+ReferenceError: buildGreeting is not defined
 
 Explain in plain English what caused this error, then fix app.js so it
 runs correctly. Show me exactly what you changed and why.
