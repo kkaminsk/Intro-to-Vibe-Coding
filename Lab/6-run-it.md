@@ -13,6 +13,14 @@ Run app.js for me and show the output. If it needs any input,
 tell me what to type.
 ```
 
+You don't have to be that specific, though — plain English works. You can simply type:
+
+```text
+run the application
+```
+
+Copilot figures out that it should run `app.js` for you.
+
 ## What to expect
 
 - Copilot suggests a command such as `node app.js`.
@@ -25,8 +33,8 @@ tell me what to type.
 You can also just run it directly:
 
 ```powershell
-node app.js          # for the Node.js example
-python number_guess.py   # if you built the Python variation
+node app.js          # the main greeting app
+node guess.js        # if you built the guessing-game variation
 ```
 
 ## If something breaks

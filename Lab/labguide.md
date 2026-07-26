@@ -30,7 +30,7 @@ By the end of this lab, you will be able to:
 
 A small Node.js command-line app (`app.js`) that asks the user for their name and prints a friendly greeting along with the current date and time. Over the course of the lab you'll improve it (time-of-day greetings, input handling) and finish it off with a README or a small automated test — all through prompts.
 
-> The examples use **Node.js**. If you prefer Python, most steps include a variation you can substitute.
+> The examples use **Node.js** throughout, so everything runs with the same tools you already installed for the Copilot CLI — nothing extra to set up.
 
 ---
 

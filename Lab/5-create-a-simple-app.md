@@ -24,13 +24,18 @@ show me the contents of app.js.
 - Approve the file creation when it asks for permission.
 - The file `app.js` now exists in your folder.
 
+> **Note:** Copilot asks before touching your files. You will see a prompt like *"Do you want to edit `C:\temp\lab1\app.js`?"* — select **Yes** to authorize the action. This is the agent proposing while you stay in control: read what it wants to do, then approve.
+
 ## Try a variation (optional)
 
 Pick a different tiny app if you prefer, for example:
 
 ```text
-Create a Python script number_guess.py that plays a
-number-guessing game between 1 and 100.
+Create a Node.js command-line app in this folder called guess.js that
+plays a number-guessing game: pick a random number between 1 and 100,
+then let me keep guessing, telling me "higher" or "lower" after each
+guess until I get it. Keep it to a single file with no external
+dependencies.
 ```
 
 ## Tips for good prompts
