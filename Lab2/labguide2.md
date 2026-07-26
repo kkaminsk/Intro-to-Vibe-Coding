@@ -58,7 +58,7 @@ This is a common, realistic mistake and it produces a clear, readable error — 
   copilot
   ```
   Then run `/login` inside the Copilot session.
-- Node.js 18+ (`node --version` to check).
+- Node.js 18+ (`node --version` to check). On Windows, install with `winget install OpenJS.NodeJS.LTS`, or manually from <https://nodejs.org/en/download>.
 
 ---
 

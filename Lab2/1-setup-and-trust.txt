@@ -11,7 +11,7 @@ CLI to diagnose and fix it. Then you will run it and verify the fix.
 
 PREREQUISITES
 - You completed Lab 1 (Copilot CLI installed and authenticated).
-  If not, install and log in first:
+  If not, install and log in first (needs Node.js — see Lab 1, Step 1):
       npm install -g @github/copilot
       copilot        (then run  /login  inside the session)
 

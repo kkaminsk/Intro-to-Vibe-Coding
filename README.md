@@ -59,7 +59,17 @@ Prompt files (work through them in order):
 
 - **Node.js 18+** and **npm** (`node --version`, `npm --version`)
 - An active **GitHub Copilot** subscription (Individual, Business, or Enterprise)
-- A terminal (PowerShell on Windows) — VS Code optional
+- A terminal (PowerShell 7 recommended on Windows, not required) — VS Code optional
+
+> **Node.js is required for the Copilot CLI itself** — the CLI installs as a global npm package, so you need Node even if you build the demo app in Python.
+
+Install Node.js on Windows:
+
+```
+winget install OpenJS.NodeJS.LTS
+```
+
+Or download and run the installer manually from **<https://nodejs.org/en/download>**, then verify with `node --version` and `npm --version`.
 
 Install Copilot CLI and sign in:
 

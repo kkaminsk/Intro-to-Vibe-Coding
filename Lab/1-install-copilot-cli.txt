@@ -10,9 +10,40 @@ PREREQUISITES
 - Node.js 18 or newer  (check with:  node --version)
 - npm                  (check with:  npm --version)
 - An active GitHub Copilot subscription (Individual, Business, or Enterprise)
+- (Optional) PowerShell 7 — a nicer terminal than Windows PowerShell 5;
+  recommended but not required
+
+Node.js is required for the Copilot CLI itself — the CLI installs as a
+global npm package, so you need Node even if you later build the app in
+another language.
+
+INSTALL POWERSHELL 7 (OPTIONAL, WINDOWS)
+Any terminal works, but PowerShell 7 is a smoother experience. Using
+winget:
+
+    winget install Microsoft.PowerShell
+
+Or install manually with the MSI installer from Microsoft's docs:
+
+    https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.6#msi
+
+INSTALL NODE.JS (WINDOWS)
+If node --version fails, install Node.js first. Using winget:
+
+    winget install OpenJS.NodeJS.LTS
+
+Or download and run the installer manually from:
+
+    https://nodejs.org/en/download
+
+Then confirm it is on your PATH:
+
+    node --version
+    npm --version
 
 INSTALL COMMAND
-Run this in your terminal (PowerShell on Windows):
+With Node installed, install the Copilot CLI in your terminal
+(PowerShell on Windows):
 
     npm install -g @github/copilot
 

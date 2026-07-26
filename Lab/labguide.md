@@ -40,6 +40,8 @@ A small Node.js command-line app (`app.js`) that asks the user for their name an
 - **npm** — check with `npm --version`
 - An active **GitHub Copilot** subscription (Individual, Business, or Enterprise)
 
+> **Need Node.js?** It's required for the Copilot CLI itself (the CLI installs via npm). On Windows: `winget install OpenJS.NodeJS.LTS`, or install manually from <https://nodejs.org/en/download>.
+
 ---
 
 ## Lab Steps
