@@ -13,11 +13,13 @@ In Lab 1 you built a working app. Real development is rarely that clean — code
 
   ```powershell
   winget install GitHub.Copilot        # recommended on Windows
-  # — or, cross-platform (requires Node.js): —
-  npm install -g @github/copilot
-
-  copilot        # then run  /login  inside the session
   ```
+
+  ```powershell
+  npm install -g @github/copilot       # or, cross-platform (requires Node.js)
+  ```
+
+  Then start it with `copilot` and run `/login` inside the session.
 
 ## Create and enter a new project folder
 
@@ -25,6 +27,9 @@ In your PowerShell terminal, create a fresh folder for this lab and move into it
 
 ```powershell
 mkdir C:\temp\lab2
+```
+
+```powershell
 cd C:\temp\lab2
 ```
 

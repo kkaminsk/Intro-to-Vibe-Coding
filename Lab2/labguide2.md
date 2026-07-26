@@ -55,9 +55,12 @@ This is a common, realistic mistake and it produces a clear, readable error — 
 - If you skipped Lab 1, install and sign in first. On Windows, `winget` is recommended (it needs no Node.js):
   ```
   winget install GitHub.Copilot     # recommended on Windows
-  # — or, cross-platform (requires Node.js): —
-  npm install -g @github/copilot
   ```
+
+  ```
+  npm install -g @github/copilot     # or, cross-platform (requires Node.js)
+  ```
+
   Then run `copilot` and `/login` inside the session.
 - Node.js 18+ (`node --version` to check) — needed to run the `app.js` you'll debug (it's a Node.js program), and for the npm install of Copilot above. The `winget` install of Copilot doesn't need it. On Windows, install Node with `winget install OpenJS.NodeJS.LTS`, or manually from <https://nodejs.org/en/download>.
 

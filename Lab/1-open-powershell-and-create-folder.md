@@ -29,6 +29,9 @@ In your PowerShell terminal, create the folder and move into it:
 
 ```powershell
 mkdir C:\temp\lab1
+```
+
+```powershell
 cd C:\temp\lab1
 ```
 
