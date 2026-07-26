@@ -1,16 +1,15 @@
 # Lab 2 — Fix a Broken App with Copilot CLI
 
-## Lab Guide *(Bonus, Optional)*
+**Lab Guide · Bonus, Optional** — practice the debug loop: run → read the error → fix → re-run.
 
----
-
+> [!NOTE]
 > **⭐ This is an optional bonus lab.** It's here for students who want to explore troubleshooting in a structured, guided way. It is **not** required to complete the session.
 >
 > **Prefer to keep vibing?** Great — that's the whole point. Instead of this lab, go back to your Lab 1 app and keep building: add a feature, redesign it, or start something entirely new and see how far you can push it with prompts. Come back to this lab any time you hit an error and want a repeatable way to work through it.
 
 ---
 
-## Overview
+## 📖 Overview
 
 In Lab 1 you built a working application from scratch using GitHub Copilot CLI. That went smoothly — but real software development rarely does. Code frequently fails the first time you run it, and the skill that separates a beginner from a confident developer is knowing what to do next.
 
@@ -20,7 +19,7 @@ This "run → read the error → fix → re-run" cycle is the core loop of real-
 
 ---
 
-## Lab Objectives
+## 🎯 Lab Objectives
 
 By the end of this lab, you will be able to:
 
@@ -33,7 +32,7 @@ By the end of this lab, you will be able to:
 
 ---
 
-## What You'll Build
+## 🛠️ What You'll Build
 
 A small Node.js command-line greeting app (`app.js`) that asks for the user's name and prints a greeting with the current date. It is intentionally created with **one deliberate bug** so you can practice fixing it.
 
@@ -66,7 +65,7 @@ This is a common, realistic mistake and it produces a clear, readable error — 
 
 ---
 
-## Lab Steps
+## 📋 Lab Steps
 
 The lab is split into five files. Work through them in order — each step depends on the one before it.
 
@@ -75,6 +74,7 @@ The lab is split into five files. Work through them in order — each step depen
 
 Create a fresh, empty project folder (`C:\temp\lab2`), start Copilot inside it, and **trust** the folder when prompted. Trust is what allows Copilot to read, edit, and run your files. Starting in a clean folder keeps this exercise isolated from Lab 1's `C:\temp\lab1`.
 
+> [!NOTE]
 > **Goal:** A new trusted folder with Copilot running and ready.
 
 ---
@@ -84,6 +84,7 @@ Create a fresh, empty project folder (`C:\temp\lab2`), start Copilot inside it, 
 
 Prompt Copilot to create `app.js` using the exact broken code provided — **without correcting it**. This guarantees the app fails on the first run so everyone gets the same error to practice on.
 
+> [!TIP]
 > **Key idea:** We *want* it broken. Do not ask Copilot to fix it yet, and don't over-analyze the code — let the error tell you what's wrong in the next step.
 
 ---
@@ -93,6 +94,7 @@ Prompt Copilot to create `app.js` using the exact broken code provided — **wit
 
 Run the app and watch it crash. Then **copy the full error message** — the error type (`ReferenceError`), the message (`buildGreeting is not defined`), and the file/line reference.
 
+> [!IMPORTANT]
 > **Why it matters:** Accurate fixes come from the *actual* error text, not a guess. Reading errors carefully is one of the most valuable developer skills, and it makes the agent's fix far more precise.
 
 ---
@@ -102,6 +104,7 @@ Run the app and watch it crash. Then **copy the full error message** — the err
 
 Paste the captured error into a prompt and ask Copilot to **explain the cause** and **fix the file**. Approve the edit when Copilot proposes it, and read the explanation so you understand *why* the fix works — not just that it does.
 
+> [!TIP]
 > **Pattern to learn:** Error in → explanation + fix out. Always ask the agent to explain what it changed and why.
 
 ---
@@ -111,11 +114,12 @@ Paste the captured error into a prompt and ask Copilot to **explain the cause** 
 
 Re-run the app and confirm the error is gone and the greeting prints correctly. If a *new* error appears, repeat the loop from Step 3. Finish with an optional challenge: have Copilot introduce a fresh bug for you to debug on your own.
 
+> [!WARNING]
 > **Never trust a fix you haven't re-run.** Verification is what closes the loop.
 
 ---
 
-## The Debugging Loop (Summary)
+## 🔁 The Debugging Loop
 
 This lab drills one repeatable cycle. Memorize it — you'll use it constantly:
 
@@ -138,9 +142,11 @@ This lab drills one repeatable cycle. Memorize it — you'll use it constantly:
  WORKING ✔
 ```
 
+*Run → Read the error → Fix → Re-run — until it works.*
+
 ---
 
-## Success Criteria
+## ✅ Success Criteria
 
 You have completed Lab 2 when:
 
@@ -152,7 +158,7 @@ You have completed Lab 2 when:
 
 ---
 
-## Key Takeaways
+## 🔑 Key Takeaways
 
 - **Broken first attempts are normal.** The measure of a developer isn't avoiding errors — it's how effectively they resolve them.
 - **Errors are information, not failure.** The message tells you (and the agent) exactly where to look.

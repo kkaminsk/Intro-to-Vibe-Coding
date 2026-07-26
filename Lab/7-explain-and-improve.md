@@ -1,8 +1,8 @@
-[← Lab 1 Guide](labguide.md)
+[← Lab 1 Guide](labguide.md) · **Step 7 of 8**
 
 # Lab 1 · Step 7 — Ask Copilot to Explain and Improve It
 
-## Goal
+## 🎯 Goal
 
 Use Copilot to understand the code it wrote and then make it better. This is where you learn from the AI instead of just running it.
 
@@ -29,7 +29,7 @@ change based on the time of day (morning/afternoon/evening).
 Show me the updated file, then explain what you changed.
 ```
 
-## What to expect
+## 👀 What to expect
 
 - Copilot edits `app.js` and summarizes its changes.
 - Approve the edits, then re-run the app (see [Step 6](6-run-it.md)) to confirm it still works and the improvements are visible.
@@ -39,12 +39,13 @@ Show me the updated file, then explain what you changed.
 - Ask for **one** improvement at a time so you can follow the changes.
 - Always re-run after a change to make sure nothing broke.
 
-## What success looks like
+## ✅ What success looks like
 
 - You understand what the code does.
 - The app has been meaningfully improved and still runs.
 
 ---
 
-Previous: [Step 6 — Run It](6-run-it.md)
-Next: [Step 8 — Add a Small Test or README](8-add-test-or-readme.md)
+| ← Previous | ↑ Guide | Next → |
+|:--|:--:|--:|
+| [Step 6 — Run It](6-run-it.md) | [Lab 1 Guide](labguide.md) | [Step 8 — Add a Small Test or README](8-add-test-or-readme.md) |

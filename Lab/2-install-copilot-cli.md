@@ -1,8 +1,8 @@
-[← Lab 1 Guide](labguide.md)
+[← Lab 1 Guide](labguide.md) · **Step 2 of 8**
 
 # Lab 1 · Step 2 — Install Copilot CLI
 
-## Goal
+## 🎯 Goal
 
 Get the GitHub Copilot CLI installed on your machine so you can chat with Copilot directly from a terminal.
 
@@ -12,7 +12,8 @@ Get the GitHub Copilot CLI installed on your machine so you can chat with Copilo
 - npm (check with `npm --version`)
 - An active GitHub Copilot subscription (Individual, Business, or Enterprise)
 
-**You need Node.js for this lab no matter how you install the Copilot CLI** — it runs the Node.js app you build later in this lab (Steps 5–6). Node.js is *also* required to install the CLI with npm (Option B below). The winget install (Option A) is the only piece that doesn't need it, because it bundles everything the CLI itself needs — but don't skip installing Node.js: the rest of the lab still depends on it.
+> [!IMPORTANT]
+> **You need Node.js for this lab no matter how you install the Copilot CLI** — it runs the Node.js app you build later in this lab (Steps 5–6). Node.js is *also* required to install the CLI with npm (Option B below). The winget install (Option A) is the only piece that doesn't need it, because it bundles everything the CLI itself needs — but don't skip installing Node.js: the rest of the lab still depends on it.
 
 ### Install Node.js (Windows)
 
@@ -72,7 +73,7 @@ Start an interactive Copilot session:
 copilot
 ```
 
-## What success looks like
+## ✅ What success looks like
 
 - `copilot --version` prints a version number with no error.
 - Running `copilot` opens the interactive prompt where you can type.
@@ -109,5 +110,6 @@ copilot --version
 
 ---
 
-Previous: [Step 1 — Open PowerShell and Create Your Lab Folder](1-open-powershell-and-create-folder.md)
-Next: [Step 3 — Trust the Working Directory](3-trust-working-directory.md)
+| ← Previous | ↑ Guide | Next → |
+|:--|:--:|--:|
+| [Step 1 — Open PowerShell](1-open-powershell-and-create-folder.md) | [Lab 1 Guide](labguide.md) | [Step 3 — Trust the Working Directory](3-trust-working-directory.md) |

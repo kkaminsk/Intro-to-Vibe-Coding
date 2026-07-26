@@ -1,8 +1,8 @@
-[← Lab 1 Guide](labguide.md)
+[← Lab 1 Guide](labguide.md) · **Step 3 of 8**
 
 # Lab 1 · Step 3 — Trust the Working Directory
 
-## Goal
+## 🎯 Goal
 
 Tell Copilot CLI it is safe to read, write, and run commands in the folder you are working in. Copilot will not act on files in an untrusted directory.
 
@@ -20,7 +20,7 @@ cd C:\temp\lab1
 copilot
 ```
 
-## What happens
+## 👀 What happens
 
 On the first launch inside a new folder, Copilot CLI asks whether you trust this directory. You will see a prompt similar to:
 
@@ -51,12 +51,13 @@ Only trust folders whose contents you recognize.
 - To review or change trusted folders, use the CLI settings / prompts the next time you enter the folder.
 - If you opened the wrong folder, exit with `/exit`, `cd` to the right place, and start `copilot` again.
 
-## What success looks like
+## ✅ What success looks like
 
 - You confirmed trust and the interactive prompt is ready.
 - Copilot can now see and modify files inside `C:\temp\lab1`.
 
 ---
 
-Previous: [Step 2 — Install Copilot CLI](2-install-copilot-cli.md)
-Next: [Step 4 — Authenticate](4-authenticate.md)
+| ← Previous | ↑ Guide | Next → |
+|:--|:--:|--:|
+| [Step 2 — Install Copilot CLI](2-install-copilot-cli.md) | [Lab 1 Guide](labguide.md) | [Step 4 — Authenticate](4-authenticate.md) |

@@ -1,8 +1,8 @@
-[← Lab 1 Guide](labguide.md)
+[← Lab 1 Guide](labguide.md) · **Step 1 of 8**
 
 # Lab 1 · Step 1 — Open PowerShell and Create Your Lab Folder
 
-## Goal
+## 🎯 Goal
 
 Open a terminal and set up a clean, empty working folder for this lab. Everything you build in Lab 1 will live in this one folder.
 
@@ -48,11 +48,13 @@ Check your current folder:
 pwd
 ```
 
-## What success looks like
+## ✅ What success looks like
 
 - Your prompt shows you are in `C:\temp\lab1`.
 - The folder is empty and ready for Copilot to work in.
 
 ---
 
-Next: [Step 2 — Install Copilot CLI](2-install-copilot-cli.md)
+| ↑ Guide | Next → |
+|:--|--:|
+| [Lab 1 Guide](labguide.md) | [Step 2 — Install Copilot CLI](2-install-copilot-cli.md) |

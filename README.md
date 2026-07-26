@@ -6,7 +6,7 @@ The session frames AI as an **assistant, not an oracle**: the human owns the spe
 
 ---
 
-## What's in This Repository
+## 📦 What's in This Repository
 
 | Item | Description |
 |------|-------------|
@@ -17,7 +17,7 @@ The session frames AI as an **assistant, not an oracle**: the human owns the spe
 
 ---
 
-## The Labs
+## 🧪 The Labs
 
 Both labs are hands-on and prompt-driven — you don't write application code by hand, you describe it to Copilot CLI. Each lab is a set of numbered prompt files plus a guide that explains the objectives and walks through every step.
 
@@ -40,6 +40,7 @@ Prompt files (work through them in order):
 ### Lab 2 — Fix a Broken App *(Bonus, Optional)*
 📕 **[Lab 2 Guide → Lab2/labguide2.md](Lab2/labguide2.md)**
 
+> [!NOTE]
 > **This lab is an optional bonus** for students who want to explore troubleshooting in a structured way. It is not required to complete the session.
 >
 > **Prefer to keep building?** That's the spirit of vibe coding — instead of Lab 2, keep going with your Lab 1 app: add a new feature, redesign it, or start something completely new and see how far you can take it with prompts.
@@ -62,6 +63,7 @@ Prompt files (work through them in order):
 - An active **GitHub Copilot** subscription (Individual, Business, or Enterprise)
 - A terminal (PowerShell 7 recommended on Windows, not required) — VS Code optional
 
+> [!IMPORTANT]
 > **Why Node.js?** You need it either way: it runs the Node.js demo app you build in the labs, and it's required if you install the Copilot CLI with `npm`. The recommended `winget` method below doesn't need Node.js for the CLI install itself — but the labs still do, so install Node.js regardless.
 
 Install Node.js on Windows:
@@ -84,11 +86,12 @@ copilot          # then run /login inside the session
 
 ---
 
-## Suggested Flow
+## 🧭 Suggested Flow
 
 1. Review the **[Agenda](Agenda.md)** to see how the hour is structured.
 2. Present the **[slide deck](Slides/Vibe_Coding_Manual.pptx)** (AI for code).
 3. Run **[Lab 1](Lab/labguide.md)** — build a working app.
 4. **Then keep vibing** — expand your app with new features, or start something new. Students who want a structured troubleshooting exercise instead can do the optional **[Lab 2 (Bonus)](Lab2/labguide2.md)**.
 
-> **Note:** GitHub's docs indicate Copilot CLI is available with all Copilot plans, but organizations may need to enable the policy. It supports trusted directories, tool access, and file/URL permissions.
+> [!NOTE]
+> GitHub's docs indicate Copilot CLI is available with all Copilot plans, but organizations may need to enable the policy. It supports trusted directories, tool access, and file/URL permissions.

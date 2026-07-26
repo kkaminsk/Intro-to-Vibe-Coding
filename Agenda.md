@@ -18,14 +18,14 @@
 
 ---
 
-## 0–5 min — Setup
+## 🚀 0–5 min — Setup
 
 - Introduce the session goal: understand AI coding assistants and build a Hello World app with Copilot CLI.
 - Frame AI as an assistant, not an oracle.
 
 ---
 
-## 5–25 min — Intro Slide Deck: AI for Code
+## 🖥️ 5–25 min — Intro Slide Deck: AI for Code
 
 - **What AI is:** a probabilistic prediction engine.
 - **Why it feels intelligent:** pattern matching + context.
@@ -37,11 +37,12 @@
 - Compare good prompt vs. bad prompt examples.
 - **Workflow:** spec → generate → inspect → run → test → refine.
 
+> [!TIP]
 > **Transition:** "Now let's use Copilot CLI."
 
 ---
 
-## 25–30 min — Break / Environment Check
+## ☕ 25–30 min — Break / Environment Check
 
 Confirm each attendee has:
 
@@ -52,7 +53,7 @@ Confirm each attendee has:
 
 ---
 
-## 30–55 min — Crash Course Lab: Copilot CLI Hello World
+## 🧪 30–55 min — Crash Course Lab: Copilot CLI Hello World
 
 1. Open PowerShell and create the lab folder (`C:\temp\lab1`).
 2. Install Copilot CLI.
@@ -63,11 +64,12 @@ Confirm each attendee has:
 7. Ask Copilot to explain and improve it.
 8. Add a small test or README.
 
-> **Note:** GitHub's current docs say Copilot CLI is available with all Copilot plans, but organizations may need to enable the policy. It also supports trusted directories, tool access, and file/URL permissions.
+> [!NOTE]
+> GitHub's current docs say Copilot CLI is available with all Copilot plans, but organizations may need to enable the policy. It also supports trusted directories, tool access, and file/URL permissions.
 
 ---
 
-## 55–60 min — Wrap-up
+## 🏁 55–60 min — Wrap-up
 
 - What worked?
 - What still needs human review?

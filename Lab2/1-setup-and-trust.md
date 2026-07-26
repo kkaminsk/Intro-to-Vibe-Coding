@@ -1,8 +1,8 @@
-[← Lab 2 Guide](labguide2.md)
+[← Lab 2 Guide](labguide2.md) · **Step 1 of 5**
 
 # Lab 2 · Step 1 — Set Up and Trust a New Folder
 
-## About this lab
+## 📖 About this lab
 
 In Lab 1 you built a working app. Real development is rarely that clean — code often fails the first time. In this lab you will deliberately start with a **broken** app, read the error, and use Copilot CLI to diagnose and fix it. Then you will run it and verify the fix.
 
@@ -52,11 +52,13 @@ copilot
 
 When Copilot asks whether you trust the files in this folder, choose to **TRUST** it. Copilot needs this to read, edit, and run your code.
 
-## What success looks like
+## ✅ What success looks like
 
 - You are in a new, empty folder called `C:\temp\lab2`.
 - Copilot is running and the folder is trusted.
 
 ---
 
-Next: [Step 2 — Create the (Broken) App](2-create-broken-app.md)
+| ↑ Guide | Next → |
+|:--|--:|
+| [Lab 2 Guide](labguide2.md) | [Step 2 — Create the (Broken) App](2-create-broken-app.md) |
